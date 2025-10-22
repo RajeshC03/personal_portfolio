@@ -225,7 +225,7 @@ body {
 
 .project-card:hover {
   transform: translateY(-19px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.247);
 }
 
 .image-wrapper {
@@ -268,16 +268,109 @@ body {
 /* Skills section starts */
 
 .skills{
-  display: flex;
-  flex-wrap: wrap;
+  background:#ffffff;
+  /* border:1px solid black; */
+  margin-top: 100px;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 
 .skills h1{
   padding-left: 90px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding-top: 50px;
   margin-top: 20px;
   font-size: 56px;
   margin-bottom: 60px;
 
+}
+
+.skills-section {
+  /* border:1px solid black; */
+  background: #f3f3f3;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: center;
+  position:relative;
+  top:-30px;
+  margin:0 auto;
+  flex-wrap: wrap;
+  gap: 60px;
+  max-width: 1000px;
+  padding: 40px;
+  transition: transform 0.7s ease, box-shadow 0.3s ease;
+}
+
+.skills-section:hover{
+  transform: translateY(-19px);
+ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.247);
+}
+
+.skills-category h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #121212;
+}
+
+.skills-category ul {
+  list-style: none;
+}
+
+.skills-category li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #474747;
+}
+
+
+/* Skills section ends */
+
+
+
+/* Experience section starts */
+
+.experience{
+  background:#ffffff;
+  margin-top: 100px;
+  border:1px solid black;
+  height:400px;
+}
+
+.experience h1{
+  font-size: 56px;
+  padding-left: 90px;
+  padding-top: 50px;
+  /* margin-top: 20px; */
+}
+
+
+.exp-comp{
+  /* border:1px solid black; */
+  /* text-align: center; */
+  margin:0 auto;
+  position:relative;
+  top:25px;
+  height: 180px;
+  background:#f3f3f3 ;
+  width:1000px;
+  padding:20px;
+  border-radius: 30px;
+  transition: transform 0.7s ease, box-shadow 0.3s ease;
+  
+}
+
+.exp-comp:hover{
+  transform: translateY(-19px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.247);
+}
+
+.exp-comp ul{
+  list-style: none;
+}
+
+.exp-comp ul li{
+  /* border: 1px solid black; */
+  text-align:left;
 }
