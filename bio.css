@@ -30,6 +30,8 @@ body {
     margin:0 auto;
 }
 
+/* objective starts */
+
 .summary{
     border:1px solid rgba(0, 0, 0, 0.336);
     border-radius: 30px;
@@ -39,10 +41,11 @@ body {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
+    margin-bottom: 45px;
 }
 
 .summary h3{
-    font-size: 56px;
+    font-size: 53px;
     padding-left: 90px;
 }
 
@@ -65,42 +68,164 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.247);
 }
 
+/* objective ends  */
+
+
+/* Education starts */
+
 .education{
-    border:1px solid black;
+    border:1px solid rgba(0, 0, 0, 0.336);
     display: flex;
     flex-direction: column;
-    height:250px;
-    background-color: red;
+    height:280px;
+    /* background-color: red; */
     /* padding-bottom:40px; */
+    position: relative;
+    top:70px;
+    margin-bottom: 250px;
+    border-radius: 30px;
 }
 
 
-.education h3{
-    font-size: 56px;
+.education h3, .language h3, .interest h3{
+    font-size: 53px;
     padding-left: 90px;
-    margin-top: 90px;
+    margin-top: 5px;
 }
 
 .college{
-    border:1px solid black;
-    background-color: rgba(0, 128, 0, 0.445);
+    border:1px solid rgba(0, 0, 0, 0.336);
+    /* background-color: rgba(0, 128, 0, 0.445); */
     position: relative;
-    top:5px;
+    top:10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
     transition: transform 0.7s ease, box-shadow 0.3s ease;
     border-radius: 30px;
-    padding: 10px;
+    padding: 40px;
     font-weight: 500;
-    
+    width: 900px;
+    margin:0 auto;
+    background: #f3f3f3;
+    margin-bottom: 30px;
+
 }
 
 
 .college:hover{
-    transform: translateY(-19px);
+    transform: translateY(-16px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.247);
 }
 
+.summary i, .college i{
+    color: #8a2be2;
+}
+
+#icons{
+    color:black;
+}
 .college li{
     list-style: none;
 }
+
+/* education ends */
+
+
+/* Language starts */
+
+.language{
+    border:1px solid rgba(0, 0, 0, 0.336);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 125px;
+    height:170px;
+    border-radius: 30px;
+
+}
+
+.language .lang{
+    border:1px solid rgba(0, 0, 0, 0.336);
+    width:350px;
+    margin: 0 auto;
+    position: relative;
+    top:10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.7s ease, box-shadow 0.3s ease;
+    padding: 40px;
+    background: #f3f3f3;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+.lang:hover{
+     transform: translateY(-16px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.247);
+}
+.lang ul{
+    /* border:1px solid black; */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: flex-start; 
+    height: 100%;
+    padding-left: 95px;   
+}
+
+.lang ul li{
+    /* border: 1px solid black; */
+    text-align: left;
+    
+}
+
+.lang i {
+    color: #8a2be2;
+}
+
+/* Languages ends */
+
+
+/* Interests starts */
+
+.interest{
+    border:1px solid rgba(0, 0, 0, 0.336);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 125px;
+    height:170px;
+    border-radius: 30px;
+}
+
+.hobby{
+    border:1px solid rgba(0, 0, 0, 0.336);
+    width:350px;
+    margin: 0 auto;
+    padding: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.7s ease, box-shadow 0.3s ease;
+    background: #f3f3f3;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+.hobby:hover{
+    transform: translateY(-16px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.247);
+}
+
+
+.hobby li{
+    text-align: left;
+}
+
+.hobby ul{
+    /* border: 1px solid black; */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: flex-start; 
+    padding-left: 95px;
+}
+
+
 

@@ -147,6 +147,8 @@ body {
   cursor: pointer;
   border: none;
   transition: 0.3s ease;
+  text-decoration: none;   /* added */
+  display: inline-block;   /* added */
 }
 
 .btn.primary {
