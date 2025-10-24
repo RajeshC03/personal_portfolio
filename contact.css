@@ -11,3 +11,23 @@ body {
   color: #1a1a1a;
   line-height: 1.6;
 }
+
+.header{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+   background: #ece9e9;
+}
+
+.header h1{
+    /* padding-left: 90px; */
+   
+    font-size: 70px;
+    /* border: 1px solid black; */
+    width: fit-content;
+    margin:0 auto;
+}
+
+
