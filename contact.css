@@ -5,12 +5,13 @@
 }
 
 body {
-  /* padding:0 40px; */
   font-family: 'Inter', Arial, sans-serif;
   background-color: #fafafa;
   color: #1a1a1a;
   line-height: 1.6;
 }
+
+/* Header section starts */
 
 .header{
     /* border: 1px solid black; */
@@ -18,7 +19,8 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 30px;
-   background: #ece9e9;
+    background: #ece9e9;
+    border-radius: 0 0 30px 30px;
 }
 
 .header h1{
@@ -29,5 +31,60 @@ body {
     width: fit-content;
     margin:0 auto;
 }
+
+/* Header section ends */
+
+
+.contact-container{
+    /* border: 1px solid black; */
+    padding-left:90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:470px;
+    border-radius: 30px;
+}
+
+.contact-container h1{
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.contact-container p{
+    font-size: 22px;
+    width: 800px;
+    margin-bottom: 25px;
+}
+
+/* Mail-Number section starts */
+.mail,.number, .linkedin{
+    /* border:1px solid black;  */
+    margin-top: 25px;
+    margin-bottom: 5px;
+    display:block;
+    text-decoration: none;
+    color:black;
+    transition: all 0.5s ease;
+}
+
+.mail{
+    width: 245px;
+}
+
+.number{
+    width: 160px;
+}
+
+.linkedin{ 
+    width: 330px;
+}
+
+.mail:hover,.number:hover,.linkedin:hover{
+    color:#8a2be2;
+    transform: scale(1.05);
+}
+
+/* Mail-Number section ends */
 
 
