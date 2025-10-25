@@ -21,6 +21,7 @@ body {
     flex-wrap: wrap;
     padding: 30px;
     background: #ece9e9;
+    border-radius: 0 0 30px 30px;
 }
 
 .header h1{
@@ -42,19 +43,23 @@ body {
     height:600px;
     border-radius: 30px;
     font-size: 20px;
-    padding-top: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
-.about-content >.para1::first-letter{
+.about-content > .para1::first-letter{
     font-size: 39px;
     font-weight: bold;
     color:#8a2be2;
+    line-height: normal;
+
 }
 
-.about-content >p::first-letter{
+.about-content > p::first-letter{
     font-size: 23px;
     font-weight: bold;
     color:#8a2be2;
+    line-height: normal;
 }
 
 .college,.company{
