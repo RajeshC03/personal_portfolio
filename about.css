@@ -83,19 +83,20 @@ body {
     margin-top: 50px;
     border-radius: 30px;
     height: 200px;
+    /* margin-bottom: 50px; */
 }
 
 .certificate h2{
     padding-left: 90px;
     font-size: 53px;
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
 .certificate ul{
     border:1px solid rgba(0, 0, 0, 0.295);
     list-style: none;
-    width:340px;
+    width:420px;
     margin:0 auto;
     background: #f3f3f3;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
@@ -104,6 +105,7 @@ body {
     border-radius: 30px;
     position: relative;
     top:-70px;
+    /* margin-bottom: 50px; */
 }
 
 .certificate ul:hover{
@@ -139,6 +141,71 @@ li a:hover i{
 /* Certificate section ends  */
 
 
-/* Co-curricular section starts */
 
 
+/* Activity section starts */
+
+.activity{
+    border:1px solid rgba(0, 0, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    margin-top:147px;
+    height: 240px;
+    border-radius: 30px;
+    margin-bottom: 300px;
+}
+
+.activity h2{
+    padding-left: 90px;
+    font-size: 53px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.activity ul{
+    border:1px solid rgba(0, 0, 0, 0.295);
+    list-style: none;
+    width:704px;
+    margin:0 auto;
+    background: #f3f3f3;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.7s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    top:-70px;
+    margin-bottom: 50px;
+}
+
+
+.activity ul:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.247);
+}
+
+ul li{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+li a i{
+    color:#8a2be2
+}
+
+li a:hover{
+    color:#8a2be2;
+    transform: scale(1.15);
+}
+
+li a:hover i{
+    color:black;
+    transform: scale(1.15);
+}
+
+/* Activity section ends */
