@@ -80,10 +80,21 @@ body {
     width: 330px;
 }
 
+.mail i,.number i,.linkedin i{
+    color:#8a2be2;
+}
+
 .mail:hover,.number:hover,.linkedin:hover{
     color:#8a2be2;
-    transform: scale(1.05);
+    transform: scale(1.15);
 }
+
+.mail:hover i,.number:hover i,.linkedin:hover i{
+    color:black;
+    transform: scale(1.15);
+}
+
+
 
 /* Mail-Number section ends */
 
