@@ -453,13 +453,14 @@ body {
   border:1px solid rgba(0, 0, 0, 0.233);
   border-radius: 30px 30px 0 0;
   background: #f3f3f3;
-  padding: 50px 100px;
+  padding: 25px 100px;
   color: #333;
   font-family: 'Poppins', sans-serif;
 }
 
 /* Top Navigation */
-.footer-top {
+/* .footer-top {
+  
   display: flex;
   justify-content: flex-start;
 }
@@ -481,15 +482,17 @@ body {
 
 .footer-nav a:hover {
   color: rgba(138, 43, 226, 1);
-}
+} */
 
 /* Middle Section */
 .footer-middle {
-  margin: 40px 0;
+  /* border:1px solid black; */
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .footer-middle h2 {
-  font-size: 1.5rem;
+  font-size: 27px;
   font-weight: 700;
 }
 
