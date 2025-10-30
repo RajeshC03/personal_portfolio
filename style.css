@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +22,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   padding: 20px 60px;
-  border: 1px solid rgba(0, 0, 0, 0.205) ;
+  border: 1px solid rgba(0, 0, 0, 0.205);
   border-radius: 0 0 20px 20px;
   box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.212);
   position: fixed;
@@ -34,73 +33,74 @@ body {
 .logo {
   font-size: 30px;
   font-weight: bolder;
-  background-color:rgba(136, 132, 139, 0.192) ;
+  background-color: rgba(136, 132, 139, 0.192);
   border-radius: 100%;
-  padding:10px;
+  padding: 10px;
 }
 
 .logo .dot {
-  color: #8a2be2; /* Purple */
+  color: #8a2be2;
+  /* Purple */
 }
 
-.navbar nav{
-    display: flex;
-    justify-content: center;
+.navbar nav {
+  display: flex;
+  justify-content: center;
 }
 
 .navbar nav .nav-links {
-    /* border: 1px solid rgba(0, 0, 0, 0.466); */
-    display: flex;           
-    justify-content: center; 
-    list-style: none;
-    gap:35px;
-    /* margin-right:500px */
-    /* margin: 0 auto; */
+  /* border: 1px solid rgba(0, 0, 0, 0.466); */
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 35px;
+  /* margin-right:500px */
+  /* margin: 0 auto; */
 }
 
-.nav-links a:hover{
-    color:#8a2be2;
-    text-shadow: 6px 6px 10px rgba(126, 7, 238, 0.26);
+.nav-links a:hover {
+  color: #8a2be2;
+  text-shadow: 6px 6px 10px rgba(126, 7, 238, 0.26);
 }
 
 .nav-links a {
   text-decoration: none;
   color: #333;
-   font-weight: bold;
-   font-size: 19px;
-   transition: all 0.2s ease-in-out;
+  font-weight: bold;
+  font-size: 19px;
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-links a.active {
-  color: rgba(138, 43, 226,1);
+  color: rgba(138, 43, 226, 1);
   font-weight: 700;
 }
 
 .navbar .bio {
-    background-color: rgba(138, 43, 226,1);
-    width:100px;
-    height:40px;
-    text-align: center;
-    padding-top:8px;
-    border-radius: 10px;
-    overflow: hidden;
+  background-color: rgba(138, 43, 226, 1);
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.bio a{
-    /* border:1px solid white; */
-    width:100%;
-    height:100%;
-    padding-top:15px;
-    padding-bottom: 15px;
-    padding-left: 38px;
-    padding-right: 38px;
-    text-decoration: none;
-    color:white;
-    font-weight: bold;
-    transition: all 0.3s ease;
+.bio a {
+  /* border:1px solid white; */
+  width: 100%;
+  height: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 38px;
+  padding-right: 38px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
 
-.bio:hover a{
+.bio:hover a {
   background-color: #6a1db5;
 }
 
@@ -117,10 +117,10 @@ body {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-top:150px;
+  padding-top: 150px;
   padding-bottom: 140px;
   padding-left: 90px;
-  padding-right:50px;
+  padding-right: 50px;
   gap: 50px;
   border-radius: 0 0 30px 30px;
   /* height: 750px; */
@@ -137,7 +137,7 @@ body {
 }
 
 .hero h1 {
-  font-size:89px ;
+  font-size: 89px;
   font-weight: 800;
   margin-bottom: 20px;
   line-height: 1.2;
@@ -167,8 +167,8 @@ body {
   cursor: pointer;
   border: none;
   transition: 0.3s ease;
-  text-decoration: none;  
-  display: inline-block;   
+  text-decoration: none;
+  display: inline-block;
   transition: all 0.3s ease;
 }
 
@@ -210,7 +210,7 @@ body {
   height: 470px;
   object-fit: cover;
   box-shadow: 0 0 15px 20px rgba(137, 43, 226, 0.185);
-  padding:20px;
+  padding: 20px;
   transition: all 0.4s ease;
 }
 
@@ -223,15 +223,15 @@ body {
 
 /* Project section starts */
 
-.project{
-  border:1px solid rgba(0, 0, 0, 0.295);
+.project {
+  border: 1px solid rgba(0, 0, 0, 0.295);
   margin-top: 100px;
   background: #ffffff;
   border-radius: 30px 30px 30px 30px;
   /* padding:40px; */
 }
 
-.project h1{
+.project h1 {
   padding-left: 90px;
   /* border: 1px solid black; */
   /* padding-top: 10px; */
@@ -248,7 +248,7 @@ body {
   margin-top: 40px;
   justify-content: center;
   /* border:1px solid black; */
-  padding-bottom:40px;
+  padding-bottom: 40px;
 }
 
 .project-card {
@@ -256,26 +256,26 @@ body {
   border-radius: 20px;
   width: 530px;
   padding: 25px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   transition: transform 0.7s ease, box-shadow 0.3s ease;
 }
 
-.project-card a{
+.project-card a {
   text-decoration: none;
   color: black;
 }
 
-.project-card i{
+.project-card i {
   color: #8a2be2;
 }
 
-.project-card a:hover{
-  color:#8a2be2;
+.project-card a:hover {
+  color: #8a2be2;
   text-decoration: underline;
 }
 
-.project-card a:hover i{
-  color:black;
+.project-card a:hover i {
+  color: black;
 }
 
 .project-card:hover {
@@ -287,7 +287,7 @@ body {
   background: linear-gradient(90deg, #7a00ff 0%, #b06aff 100%);
   border-radius: 16px;
   padding: 10px;
-  height:320px;
+  height: 320px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -323,18 +323,18 @@ body {
 
 /* Skills section starts */
 
-.skills{
-  background:#ffffff;
-  border:1px solid rgba(0, 0, 0, 0.295);
+.skills {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.295);
   margin-top: 100px;
   border-radius: 30px 30px 30px 30px;
-  
+
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
-.skills h1{
+.skills h1 {
   padding-left: 90px;
   /* border: 1px solid black; */
   padding-top: 50px;
@@ -348,12 +348,12 @@ body {
   /* border:1px solid black; */
   background: #f3f3f3;
   border-radius: 30px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   display: flex;
   justify-content: center;
-  position:relative;
-  top:-30px;
-  margin:0 auto;
+  position: relative;
+  top: -30px;
+  margin: 0 auto;
   flex-wrap: wrap;
   gap: 60px;
   width: 1100px;
@@ -361,9 +361,9 @@ body {
   transition: transform 0.7s ease, box-shadow 0.3s ease;
 }
 
-.skills-section:hover{
+.skills-section:hover {
   transform: translateY(-19px);
- box-shadow: 0 8px 20px rgba(0, 0, 0, 0.247);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.247);
 }
 
 .skills-category h3 {
@@ -390,11 +390,11 @@ body {
 
 /* Experience section starts */
 
-.experience{
-  background:#ffffff;
+.experience {
+  background: #ffffff;
   margin-top: 100px;
-  border:1px solid rgba(0, 0, 0, 0.295);
-  height:420px;
+  border: 1px solid rgba(0, 0, 0, 0.295);
+  height: 420px;
   border-radius: 30px 30px 30px 30px;
   display: flex;
   flex-direction: column;
@@ -403,7 +403,7 @@ body {
   /* align-items: center; */
 }
 
-.experience h1{
+.experience h1 {
   font-size: 56px;
   padding-left: 90px;
   padding-top: 50px;
@@ -411,36 +411,36 @@ body {
 }
 
 
-.exp-comp{
+.exp-comp {
   /* border:1px solid black; */
   /* text-align: center; */
-  margin:0 auto;
-  position:relative;
-  top:25px;
+  margin: 0 auto;
+  position: relative;
+  top: 25px;
   height: 220px;
-  background:#f3f3f3 ;
-  width:1000px;
-  padding:20px;
+  background: #f3f3f3;
+  width: 1000px;
+  padding: 20px;
   border-radius: 30px;
   transition: transform 0.7s ease, box-shadow 0.3s ease;
-  
+
 }
 
-.exp-comp:hover{
+.exp-comp:hover {
   transform: translateY(-19px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.247);
 }
 
-.exp-comp ul{
+.exp-comp ul {
   list-style: none;
 }
 
-.exp-comp ul li{
+.exp-comp ul li {
   /* border: 1px solid black; */
-  text-align:left;
+  text-align: left;
 }
 
-.exp-comp i{
+.exp-comp i {
   color: #8a2be2;
 }
 
@@ -451,7 +451,10 @@ body {
 
 
 .footer {
-  border:1px solid rgba(0, 0, 0, 0.233);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid rgba(0, 0, 0, 0.233);
   border-radius: 30px 30px 0 0;
   background: #f3f3f3;
   padding: 25px 100px;
@@ -549,7 +552,7 @@ body {
 .social-icons a {
   color: #333;
   margin-right: 20px;
-  font-size: 1.2rem;
+  font-size: 29px;
   transition: color 0.3s;
 }
 
@@ -586,4 +589,3 @@ body {
 
 
 /* Footer section ends */
-

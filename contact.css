@@ -41,7 +41,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height:470px;
+    height:525px;
     border-radius: 30px;
 }
 
@@ -60,7 +60,7 @@ body {
 
 /* Mail-Number section starts */
 
-.mail,.number, .linkedin{
+.mail,.number, .linkedin, .instagram{
     /* border:1px solid black;  */
     margin-top: 25px;
     margin-bottom: 5px;
@@ -79,19 +79,24 @@ body {
 }
 
 .linkedin{ 
-    width: 330px;
+    width: 120px;
 }
 
-.mail i,.number i,.linkedin i{
+.instagram{
+    width: 170px;
+}
+
+.mail i,.number i,.linkedin i, .instagram i{
     color:#8a2be2;
+    font-size: 23px;
 }
 
-.mail:hover,.number:hover,.linkedin:hover{
+.mail:hover,.number:hover,.linkedin:hover, .instagram:hover{
     color:#8a2be2;
     transform: scale(1.15);
 }
 
-.mail:hover i,.number:hover i,.linkedin:hover i{
+.mail:hover i,.number:hover i,.linkedin:hover i, .instagram:hover i{
     color:black;
     transform: scale(1.15);
 }
